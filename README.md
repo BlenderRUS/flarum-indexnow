@@ -110,4 +110,4 @@ npm run build                # commit js/dist together with the sources
 
 ## License
 
-[MIT](LICENSE) © 2026 Grigoriy
+[MIT](LICENSE) © 2026 Grigoriy Skidan

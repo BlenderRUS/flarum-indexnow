@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 - 2026-09-28
+
+- The author's full name in `composer.json`, the license and the file headers.
+
 ## 1.0.1 - 2026-09-28
 
 - The key field is wide enough to show a whole 32-character key.
