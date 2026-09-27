@@ -49,7 +49,7 @@ function lastResult() {
       {result ? (
         <div className="helpText">
           {t('last_result_status', {
-            time: new Date(result.time).toLocaleString(),
+            time: dayjs(result.time).format('LLL'),
             count: result.count,
             endpoint: result.endpoint,
             status: result.status ?? '—',

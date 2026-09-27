@@ -1,9 +1,12 @@
 .IndexNowSettings-keyInput {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 
+  // Wide enough for a 32-character key; the row itself only takes the width of its content.
   .FormControl {
-    flex: 1;
+    width: 36ch;
+    max-width: 100%;
     font-family: var(--font-family-monospace, monospace);
   }
 }

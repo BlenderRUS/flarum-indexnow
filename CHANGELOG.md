@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 - 2026-09-28
+
+- The key field is wide enough to show a whole 32-character key.
+- The time of the last submission follows the forum's language instead of the browser's.
+
 ## 1.0.0 - 2026-09-28
 
 First release.
